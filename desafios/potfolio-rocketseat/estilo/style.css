@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,  rgb(145, 255, 72), rgb(0, 255, 179), skyblue);
+    font-family: 'Merriweather Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: transparent;
+}
+
+header > h1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+main {
+    width: 85vw;
+    min-height: 100%;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.486);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+div.horizontal {
+    background-position: right top;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.lateral {
+    width: 20vw;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+div#bl1 {
+    height: 15vw;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div#bl2 {
+    height: 35vw;
+    border-radius: 20px;
+}
+
+div#bl3 {
+    height: 10vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
